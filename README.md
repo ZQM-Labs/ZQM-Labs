@@ -1,2 +1,2 @@
 # ZQM-Labs
-ZQM Labs organization profile
+Umbrella landing for ZQM Labs.
