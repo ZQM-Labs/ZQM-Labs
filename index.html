@@ -32,11 +32,19 @@ ul{display:grid;gap:.4rem;padding-left:1.2rem}
 .status{display:inline-flex;align-items:center;gap:.5rem;padding:.35rem .7rem;border-radius:999px;background:color-mix(in srgb,#10b981 18%,transparent);border:1px solid color-mix(in srgb,#10b981 35%,transparent);font-size:.85rem;font-weight:600}
 </style>
 <header>
-  <div class="logo" aria-hidden="true">ZQM</div>
-  <div>
-    <h1>ZQM Labs</h1>
-    <div class="tagline">Attestation. Security. AI tooling. Operator-first.</div>
+  <div class="brand">
+    <a href="https://zqm-labs.github.io/ZQM-Labs/">
+      <span class="logo" aria-hidden="true">ZQM</span>
+      <span class="brand-text">ZQM Labs <span class="brand-sub">— umbrella for attestation, security, and AI tooling</span></span>
+    </a>
   </div>
+  <nav>
+    <a href="https://zqm-labs.github.io/ZQM-Labs/contact.html">Contact</a>
+    <a href="https://zqm-labs.github.io/ZQM-Labs/services.html">Services</a>
+    <a href="https://zqm-labs.github.io/ZQM-Labs/advanced.html">Advanced</a>
+    <a href="https://zqm-labs.github.io/ZQM-Labs/projects.html">Projects</a>
+    <a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a>
+  </nav>
 </header>
 
 <nav>
@@ -86,6 +94,15 @@ ul{display:grid;gap:.4rem;padding-left:1.2rem}
   <p>Rates: $150–500/endpoint attestation, $75–150/hr automation, $500–3000/mo retainer.</p>
 </section>
 
-<div class="footer">ZQM Labs &middot; <a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a> &middot; <a href="https://github.com/ZQM-Labs">GitHub org</a> &middot; Last build: <span id="build"></span></div>
+<div class="footer">
+  <a href="https://zqm-labs.github.io/ZQM-Labs/">Home</a> &middot;
+  <a href="https://zqm-labs.github.io/ZQM-Labs/projects.html">Projects</a> &middot;
+  <a href="https://zqm-labs.github.io/ZQM-Labs/services.html">Services</a> &middot;
+  <a href="https://zqm-labs.github.io/ZQM-Labs/advanced.html">Advanced</a> &middot;
+  <a href="https://zqm-labs.github.io/ZQM-Labs/contact.html">Contact</a> &middot;
+  <a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a> &middot;
+  <a href="mailto:zqmcomputing@gmail.com">Email</a>
+</div>
+
 <script>document.getElementById('build').textContent = new Date().toISOString().slice(0,10)</script>
 </html>
