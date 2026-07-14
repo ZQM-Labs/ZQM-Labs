@@ -3,16 +3,70 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ZQM Labs</title>
+<meta name="description" content="ZQM Labs: umbrella organization for attestation, security, and AI tooling.">
 <style>
-body{font-family:system-ui,sans-serif;max-width:840px;margin:auto;padding:2rem;line-height:1.55}
-a{color:#0a66c2}
-.status{padding:.5rem .75rem;border-left:4px solid #0a66c2;background:#f5faff;margin:1rem 0}
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:860px;margin:auto;padding:2.5rem 1.25rem;line-height:1.55;background:Canvas;color:CanvasText}
+header{display:flex;align-items:center;gap:1rem;margin-bottom:2rem}
+.logo{width:56px;height:56px;border-radius:14px;background:linear-gradient(135deg,#0ea5e9,#10b981);display:grid;place-items:center;color:#fff;font-weight:700;font-size:1.25rem}
+h1{font-size:1.8rem;margin:0}
+.tagline{opacity:.85;font-size:1rem}
+nav{display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:2rem}
+nav a{padding:.45rem .7rem;border:1px solid color-mix(in srgb,currentColor 20%,transparent);border-radius:999px;text-decoration:none;color:inherit;opacity:.9}
+nav a:hover{border-color:currentColor}
+section{margin:1.6rem 0;padding:1.1rem 1.25rem;border:1px solid color-mix(in srgb,currentColor 12%,transparent);border-radius:16px;background:color-mix(in srgb,currentColor 4%,transparent)}
+section h2{font-size:1.15rem;margin:0 0 .5rem}
+ul{display:grid;gap:.35rem;padding-left:1.1rem}
+a{color:inherit;text-underline-offset:2px}
+.footer{margin-top:2.5rem;opacity:.75;font-size:.9rem}
 </style>
-<h1>ZQM Labs</h1>
-<p>ZQM Labs is the umbrella organization for attestation, security, and AI tooling.</p>
-<div class="status">
-  <strong>Sites</strong><br>
-  <a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a><br>
+<header>
+  <div class="logo" aria-hidden="true">ZQM</div>
+  <div>
+    <h1>ZQM Labs</h1>
+    <div class="tagline">Attestation. Security. AI tooling. Operator-first.</div>
+  </div>
+</header>
+
+<nav>
+  <a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a>
   <a href="https://zqm-labs.github.io/ZQM-Labs/">ZQM Labs</a>
-</div>
-<p>This landing is under construction. Detailed project pages are being added to each property.</p>
+  <a href="https://github.com/ZQM-Labs">GitHub org</a>
+  <a href="https://zqm-labs.github.io/ZQM-Labs/contact.html">Contact</a>
+</nav>
+
+<section>
+  <h2>About</h2>
+  <p>ZQM Labs is the umbrella organization for attestation, security, and AI tooling. We build reproducible, evidence-first operator artifacts for Windows fleets, developers, and compliance teams.</p>
+</section>
+
+<section>
+  <h2>Properties</h2>
+  <ul>
+    <li><a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a> — managed IT, preemptive cybersecurity, cloud cost control, web services, and AI consulting for Florida operators.</li>
+    <li><a href="https://zqm-labs.github.io/ZQM-Labs/">ZQM Labs</a> — platform surface for attestation, council deliberation, and automation.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Selected Projects</h2>
+  <ul>
+    <li><a href="https://github.com/ZQM-Labs/pqc-readiness-toolkit">pqc-readiness-toolkit</a> — post-quantum readiness deliverables.</li>
+    <li><a href="https://github.com/ZQM-Labs/zqm-attestation-toolkit">zqm-attestation-toolkit</a> — Windows attestation, forensics, and reporting.</li>
+    <li><a href="https://github.com/ZQM-Labs/zqm-public-tools">zqm-public-tools</a> — public attestation and automation utilities.</li>
+    <li><a href="https://github.com/ZQM-Labs/awesome-windows-attestation">awesome-windows-attestation</a> — curated references and learning path.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:zqmcomputing@gmail.com">zqmcomputing@gmail.com</a></p>
+  <p>Atlantic coast / Florida. Remote and on-site engagements.</p>
+</section>
+
+<div class="footer">ZQM Labs &middot; Last build: <span id="build"></span></div>
+<script>
+  document.getElementById('build').textContent = new Date().toISOString().slice(0,10)
+</script>
+</html>
