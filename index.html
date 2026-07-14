@@ -4,22 +4,32 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ZQM Labs</title>
 <meta name="description" content="ZQM Labs: umbrella organization for attestation, security, and AI tooling.">
+<link rel="canonical" href="https://zqm-labs.github.io/ZQM-Labs/">
+<meta property="og:url" content="https://zqm-labs.github.io/ZQM-Labs/">
+<meta property="og:title" content="ZQM Labs">
+<meta property="og:description" content="Umbrella organization for attestation, security, and AI tooling.">
+<meta property="og:type" content="website">
 <style>
 :root{color-scheme:light dark}
 *{box-sizing:border-box}
-body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:860px;margin:auto;padding:2.5rem 1.25rem;line-height:1.55;background:Canvas;color:CanvasText}
-header{display:flex;align-items:center;gap:1rem;margin-bottom:2rem}
-.logo{width:56px;height:56px;border-radius:14px;background:linear-gradient(135deg,#0ea5e9,#10b981);display:grid;place-items:center;color:#fff;font-weight:700;font-size:1.25rem}
-h1{font-size:1.8rem;margin:0}
-.tagline{opacity:.85;font-size:1rem}
+body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:960px;margin:auto;padding:2.5rem 1.25rem;line-height:1.6;background:Canvas;color:CanvasText}
+header{display:flex;align-items:center;gap:1rem;margin-bottom:2.25rem;padding-bottom:1.25rem;border-bottom:1px solid color-mix(in srgb,currentColor 12%,transparent)}
+.logo{width:64px;height:64px;border-radius:18px;background:linear-gradient(135deg,#0ea5e9,#10b981);display:grid;place-items:center;color:#fff;font-weight:800;font-size:1.5rem;letter-spacing:.05em}
+h1{font-size:2rem;margin:0}
+.tagline{opacity:.85;font-size:1.05rem;margin-top:.2rem}
 nav{display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:2rem}
-nav a{padding:.45rem .7rem;border:1px solid color-mix(in srgb,currentColor 20%,transparent);border-radius:999px;text-decoration:none;color:inherit;opacity:.9}
-nav a:hover{border-color:currentColor}
-section{margin:1.6rem 0;padding:1.1rem 1.25rem;border:1px solid color-mix(in srgb,currentColor 12%,transparent);border-radius:16px;background:color-mix(in srgb,currentColor 4%,transparent)}
-section h2{font-size:1.15rem;margin:0 0 .5rem}
-ul{display:grid;gap:.35rem;padding-left:1.1rem}
-a{color:inherit;text-underline-offset:2px}
-.footer{margin-top:2.5rem;opacity:.75;font-size:.9rem}
+nav a{padding:.5rem .85rem;border:1px solid color-mix(in srgb,currentColor 20%,transparent);border-radius:999px;text-decoration:none;color:inherit;opacity:.92;font-size:.95rem}
+nav a:hover{border-color:currentColor;opacity:1}
+section{margin:1.6rem 0;padding:1.25rem 1.5rem;border:1px solid color-mix(in srgb,currentColor 12%,transparent);border-radius:18px;background:color-mix(in srgb,currentColor 4%,transparent)}
+section h2{font-size:1.2rem;margin:0 0 .6rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.card{padding:1rem;border:1px solid color-mix(in srgb,currentColor 12%,transparent);border-radius:14px;background:color-mix(in srgb,currentColor 3%,transparent)}
+.card h3{font-size:1rem;margin:0 0 .35rem}
+.card a{text-decoration:none;opacity:.9}
+.card a:hover{text-decoration:underline}
+ul{display:grid;gap:.4rem;padding-left:1.2rem}
+.footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid color-mix(in srgb,currentColor 12%,transparent);opacity:.8;font-size:.9rem}
+.status{display:inline-flex;align-items:center;gap:.5rem;padding:.35rem .7rem;border-radius:999px;background:color-mix(in srgb,#10b981 18%,transparent);border:1px solid color-mix(in srgb,#10b981 35%,transparent);font-size:.85rem;font-weight:600}
 </style>
 <header>
   <div class="logo" aria-hidden="true">ZQM</div>
@@ -30,32 +40,42 @@ a{color:inherit;text-underline-offset:2px}
 </header>
 
 <nav>
+  <a href="https://zqm-labs.github.io/ZQM-Labs/">Home</a>
   <a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a>
-  <a href="https://zqm-labs.github.io/ZQM-Labs/">ZQM Labs</a>
   <a href="https://github.com/ZQM-Labs">GitHub org</a>
   <a href="https://zqm-labs.github.io/ZQM-Labs/contact.html">Contact</a>
+  <span class="status" aria-label="Status">Public surface: 7 public repos</span>
 </nav>
 
 <section>
   <h2>About</h2>
-  <p>ZQM Labs is the umbrella organization for attestation, security, and AI tooling. We build reproducible, evidence-first operator artifacts for Windows fleets, developers, and compliance teams.</p>
+  <p>ZQM Labs builds reproducible, evidence-first operator artifacts for Windows fleets, developers, and compliance teams. We combine forensics, post-quantum readiness, and automation into deliverable attestation and council tooling.</p>
+  <p>This landing is the public hub. Detailed pages live on the companion property, <a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a>.</p>
 </section>
 
 <section>
   <h2>Properties</h2>
-  <ul>
-    <li><a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a> — managed IT, preemptive cybersecurity, cloud cost control, web services, and AI consulting for Florida operators.</li>
-    <li><a href="https://zqm-labs.github.io/ZQM-Labs/">ZQM Labs</a> — platform surface for attestation, council deliberation, and automation.</li>
-  </ul>
+  <div class="grid">
+    <div class="card">
+      <h3><a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a></h3>
+      <p>Managed IT, preemptive cybersecurity, cloud cost control, web services, and AI consulting for Florida operators. Commercial engagement surface.</p>
+    </div>
+    <div class="card">
+      <h3><a href="https://zqm-labs.github.io/ZQM-Labs/">ZQM Labs</a></h3>
+      <p>Umbrella platform for attestation, security, AI council, and developer-facing tooling.</p>
+    </div>
+  </div>
 </section>
 
 <section>
   <h2>Selected Projects</h2>
   <ul>
-    <li><a href="https://github.com/ZQM-Labs/pqc-readiness-toolkit">pqc-readiness-toolkit</a> — post-quantum readiness deliverables.</li>
-    <li><a href="https://github.com/ZQM-Labs/zqm-attestation-toolkit">zqm-attestation-toolkit</a> — Windows attestation, forensics, and reporting.</li>
-    <li><a href="https://github.com/ZQM-Labs/zqm-public-tools">zqm-public-tools</a> — public attestation and automation utilities.</li>
-    <li><a href="https://github.com/ZQM-Labs/awesome-windows-attestation">awesome-windows-attestation</a> — curated references and learning path.</li>
+    <li><a href="https://github.com/ZQM-Labs/pqc-readiness-toolkit">pqc-readiness-toolkit</a> — Post-quantum readiness deliverables and procurement playbooks.</li>
+    <li><a href="https://github.com/ZQM-Labs/zqm-attestation-toolkit">zqm-attestation-toolkit</a> — Windows attestation, forensics, and CMS-signed reporting.</li>
+    <li><a href="https://github.com/ZQM-Labs/zqm-public-tools">zqm-public-tools</a> — Public attestation and automation utilities.</li>
+    <li><a href="https://github.com/ZQM-Labs/awesome-windows-attestation">awesome-windows-attestation</a> — Curated Windows attestation references.</li>
+    <li><a href="https://github.com/ZQM-Labs/zqm-security-policy">zqm-security-policy</a> — Enterprise security policies and runbooks.</li>
+    <li><a href="https://github.com/ZQM-Labs/zqm-shield">zqm-shield</a> — Endpoint security and compliance controls.</li>
   </ul>
 </section>
 
@@ -63,10 +83,9 @@ a{color:inherit;text-underline-offset:2px}
   <h2>Contact</h2>
   <p>Email: <a href="mailto:zqmcomputing@gmail.com">zqmcomputing@gmail.com</a></p>
   <p>Atlantic coast / Florida. Remote and on-site engagements.</p>
+  <p>Rates: $150–500/endpoint attestation, $75–150/hr automation, $500–3000/mo retainer.</p>
 </section>
 
-<div class="footer">ZQM Labs &middot; Last build: <span id="build"></span></div>
-<script>
-  document.getElementById('build').textContent = new Date().toISOString().slice(0,10)
-</script>
+<div class="footer">ZQM Labs &middot; <a href="https://zqm-computing.github.io/ZQM-Computing/">ZQM Computing</a> &middot; <a href="https://github.com/ZQM-Labs">GitHub org</a> &middot; Last build: <span id="build"></span></div>
+<script>document.getElementById('build').textContent = new Date().toISOString().slice(0,10)</script>
 </html>
