@@ -2,5 +2,9 @@
 
 ## Reporting a Vulnerability
 
-Please report security issues to **zqmcomputing@gmail.com** with subject `ZQM-SEC-REPORT`.
-We will acknowledge within 2 business days and provide a follow-up within 10 business days.
+If you discover a security vulnerability, please report it responsibly:
+
+- **Email**: security@zqm-computing.io
+- **GitHub Security Advisory**: Use the "Security" tab on GitHub
+
+Please do NOT open public issues for security vulnerabilities.
