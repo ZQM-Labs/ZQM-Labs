@@ -1,4 +1,6 @@
 # ZQM Labs
+[![Release](https://github.com/ZQM-Labs/ZQM-Labs/actions/workflows/release.yml/badge.svg)](https://github.com/ZQM-Labs/ZQM-Labs/actions/workflows/release.yml)
+
 
 <p align="left">
   <img src="https://github.com/ZQM-Labs/ZQM-Labs/actions/workflows/ci.yml/badge.svg" alt="CI" />
